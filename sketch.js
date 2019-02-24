@@ -11,8 +11,8 @@ function preload() {
 }
 function setup() {
     createCanvas(1280, 720);
-    x=400;
-    y=300;
+    x=random(width);
+    y=random(height);
     xspeed=5;
     yspeed=5;
     changeColor();
